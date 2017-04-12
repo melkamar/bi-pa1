@@ -1,0 +1,13 @@
+Zadejte pocet vlaku:
+Interval vlaku 1:
+Interval vlaku 2:
+Interval vlaku 3:
+Interval vlaku 4:
+Interval vlaku 5:
+Vsechny vlaky se potkaji za: 1773:00
+Mezitim projede:
+* vlak 1: 1181x,
+* vlak 2: 787x,
+* vlak 3: 539x,
+* vlak 4: 7091x a
+* vlak 5: 5318x.

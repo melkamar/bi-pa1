@@ -1,0 +1,2 @@
+Enter degree of polynomial A:
+Invalid input.

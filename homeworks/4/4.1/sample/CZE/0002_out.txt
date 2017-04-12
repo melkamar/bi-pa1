@@ -1,0 +1,9 @@
+Zadejte pocet vlaku:
+Interval vlaku 1:
+Interval vlaku 2:
+Interval vlaku 3:
+Vsechny vlaky se potkaji za: 20:00
+Mezitim projede:
+* vlak 1: 79x,
+* vlak 2: 7x a
+* vlak 3: 14x.

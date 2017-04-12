@@ -1,0 +1,2 @@
+Enter number:
+Derived palindrome: 848 (iterations: 1)

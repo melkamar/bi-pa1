@@ -1,0 +1,7 @@
+Zadejte pocet vlaku:
+Interval vlaku 1:
+Interval vlaku 2:
+Interval vlaku 3:
+Interval vlaku 4:
+Interval vlaku 5:
+Vysledek mimo rozsah datoveho typu.

@@ -1,0 +1,6 @@
+Zadejte krizovku:
+Krizovka ma 1 reseni:
++-----+
+|aa*aa|
+|aa*aa|
++-----+

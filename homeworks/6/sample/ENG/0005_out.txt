@@ -1,0 +1,2 @@
+Enter your wordfind:
+Word 'mars' not found.

@@ -1,0 +1,2 @@
+Enter the crossword:
+Invalid input.

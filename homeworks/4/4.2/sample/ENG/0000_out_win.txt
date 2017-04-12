@@ -1,0 +1,4 @@
+Enter number of trains:
+Train #1 interval:
+Next departure of train #1:
+All trains meet in: 0:12

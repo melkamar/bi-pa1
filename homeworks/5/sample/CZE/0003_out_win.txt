@@ -1,0 +1,5 @@
+Zadejte stupen polynomu A:
+Zadejte koeficienty polynomu A:
+Zadejte stupen polynomu B:
+Zadejte koeficienty polynomu B:
+-x<sup>3</sup>+6x<sup>2</sup>-5x-12

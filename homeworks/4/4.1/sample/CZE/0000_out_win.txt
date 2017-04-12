@@ -1,0 +1,5 @@
+Zadejte pocet vlaku:
+Interval vlaku 1:
+Vsechny vlaky se potkaji za: 1:23
+Mezitim projede:
+* vlak 1: 0x.

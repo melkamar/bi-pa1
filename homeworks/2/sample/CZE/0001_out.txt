@@ -1,0 +1,2 @@
+Zadejte cislo:
+Vypocteny palindrom: 2662 (iteraci: 2)

@@ -1,0 +1,3 @@
+Zadejte stupen polynomu A:
+Zadejte koeficienty polynomu A:
+Nespravny vstup.

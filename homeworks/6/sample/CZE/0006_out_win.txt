@@ -1,0 +1,2 @@
+Zadejte osmismerku:
+Nespravny vstup.

@@ -1,0 +1,6 @@
+Enter the crossword:
+There is one solution of the crossword:
++-----+
+|aa*aa|
+|aa*aa|
++-----+

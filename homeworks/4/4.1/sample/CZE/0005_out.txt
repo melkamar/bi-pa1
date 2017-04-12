@@ -1,0 +1,2 @@
+Zadejte pocet vlaku:
+Nespravny vstup.

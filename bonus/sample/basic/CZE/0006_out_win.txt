@@ -1,0 +1,2 @@
+Zadejte krizovku:
+Nespravny vstup.

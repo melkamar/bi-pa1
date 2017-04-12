@@ -1,0 +1,8 @@
+Enter number of trains:
+Train #1 interval:
+Next departure of train #1:
+Train #2 interval:
+Next departure of train #2:
+Train #3 interval:
+Next departure of train #3:
+All trains meet in: 15:47

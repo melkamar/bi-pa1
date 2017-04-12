@@ -1,0 +1,13 @@
+Enter number of trains:
+Train #1 interval:
+Train #2 interval:
+Train #3 interval:
+Train #4 interval:
+Train #5 interval:
+All trains meet in: 1773:00
+Meanwhile, there will be departures:
+* train #1: 1181x,
+* train #2: 787x,
+* train #3: 539x,
+* train #4: 7091x, and
+* train #5: 5318x.

@@ -1,0 +1,11 @@
+Zadejte krizovku:
+Krizovka ma 1 reseni:
++-----+
+|zro*h|
+|ogish|
+|bfkh*|
+|xvf*r|
+|za*c*|
+|sc*df|
+|tdxic|
++-----+

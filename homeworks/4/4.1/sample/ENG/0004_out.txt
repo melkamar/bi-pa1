@@ -1,0 +1,7 @@
+Enter number of trains:
+Train #1 interval:
+Train #2 interval:
+Train #3 interval:
+Train #4 interval:
+Train #5 interval:
+The result exceeds data type range.

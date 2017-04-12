@@ -1,0 +1,2 @@
+Enter number of trains:
+Invalid input.

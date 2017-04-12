@@ -1,0 +1,2 @@
+Zadejte cislo:
+Vypocteny palindrom: 848 (iteraci: 1)

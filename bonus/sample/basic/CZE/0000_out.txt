@@ -1,0 +1,5 @@
+Zadejte krizovku:
+Krizovka ma 1 reseni:
++--+
+|ab|
++--+

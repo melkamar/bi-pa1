@@ -1,0 +1,2 @@
+Zadejte cislo:
+Nespravny vstup.

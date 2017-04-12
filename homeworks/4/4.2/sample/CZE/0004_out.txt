@@ -1,0 +1,8 @@
+Zadejte pocet vlaku:
+Interval vlaku 1:
+Pristi odjezd vlaku 1:
+Interval vlaku 2:
+Pristi odjezd vlaku 2:
+Interval vlaku 3:
+Pristi odjezd vlaku 3:
+Vlaky se nikdy nesetkaji.

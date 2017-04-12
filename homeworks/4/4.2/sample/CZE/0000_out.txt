@@ -1,0 +1,4 @@
+Zadejte pocet vlaku:
+Interval vlaku 1:
+Pristi odjezd vlaku 1:
+Vsechny vlaky se potkaji za: 0:12

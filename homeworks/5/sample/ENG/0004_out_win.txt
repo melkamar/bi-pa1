@@ -1,0 +1,5 @@
+Enter degree of polynomial A:
+Enter coefficients of polynomial A:
+Enter degree of polynomial B:
+Enter coefficients of polynomial B:
+x<sup>10</sup>+x<sup>8</sup>+2x<sup>7</sup>+2x<sup>5</sup>+x<sup>4</sup>+2x
