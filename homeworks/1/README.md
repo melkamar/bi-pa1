@@ -23,7 +23,7 @@ Dodržte pøesnì formát všech výpisù. Výpis Vašeho programu musí pøesnì odpovídat 
 
 Váš program bude spouštìn v omezeném testovacím prostøedí. Je omezen dobou bìhu (limit je vidìt v logu referenèního øešení) a dále je omezena i velikost dostupné pamìti (ale tato úloha by ani s jedním omezením nemìla mít problém). Testovací prostøedí dále zakazuje používat nìkteré "nebezpeèné funkce" -- funkce pro spouštìní programu, pro práci se sítí, ... Pokud jsou tyto funkce použité, program se nespustí. Možná ve svém programu používáte volání:
 
-```
+```c++
 int main ( int argc, char * argv [] )
 {
 
@@ -36,7 +36,7 @@ int main ( int argc, char * argv [] )
 
 Toto nebude v testovacím prostøedí fungovat - je zakázáno spouštìní jiného programu. (I pokud by se program spustil, byl by odmítnut. Nebyl by totiž nikdo, kdo by pauzu "odmáèkl", program by èekal vìènì a pøekroèil by tak maximální dobu bìhu.) Pokud tedy chcete zachovat pauzu pro testování na Vašem poèítaèi a zároveò chcete mít jistotu, že program pobìží správnì, použijte následující trik:
 
-```
+```c++
 int main ( int argc, char * argv [] )
 {
  
