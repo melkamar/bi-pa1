@@ -1,0 +1,9 @@
+Zadejte cas prijezdu vlaku A:
+Zadejte cas odjezdu vlaku A:
+Zadejte cas prijezdu vlaku B:
+Zadejte cas odjezdu vlaku B:
+Zadejte cas prijezdu vlaku C:
+Zadejte cas odjezdu vlaku C:
+Z vlaku A lze prestoupit na vlak B.
+Z vlaku B lze prestoupit na vlak C.
+Z vlaku C lze prestoupit na vlak B.

@@ -1,0 +1,9 @@
+Enter train A arrival time:
+Enter train A departure time:
+Enter train B arrival time:
+Enter train B departure time:
+Enter train C arrival time:
+Enter train C departure time:
+Can change to both B and C from A.
+Can change to both A and C from B.
+No changes available from train C.

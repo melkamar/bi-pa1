@@ -1,0 +1,3 @@
+Zadejte cas prijezdu vlaku A:
+Zadejte cas odjezdu vlaku A:
+Nespravny vstup.
