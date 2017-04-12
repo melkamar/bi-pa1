@@ -1,4 +1,4 @@
-# Homework 1 - Pøestupy na nádraží
+# Domácí úloha 1 - Pøestupy na nádraží
 
 Úkolem je realizovat program, který bude rozhodovat o možnostech pøestupu mezi vlaky na nádraží.
 
