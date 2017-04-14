@@ -1,1 +1,1 @@
-# Domácí úloha 5 - Násobení polynomù  
+# DomÃ¡cÃ­ Ãºloha 5 - NÃ¡sobenÃ­ polynomÅ¯  

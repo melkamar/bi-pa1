@@ -1,1 +1,1 @@
-# Domácí úloha 6 - Øešení osmismìrky 
+# DomÃ¡cÃ­ Ãºloha 6 - Å˜eÅ¡enÃ­ osmismÄ›rky 

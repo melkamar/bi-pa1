@@ -1,27 +1,27 @@
-# Domácí úloha 1 - Pøestupy na nádraí
+# DomÃ¡cÃ­ Ãºloha 1 - PÅ™estupy na nÃ¡draÅ¾Ã­
 
-Úkolem je realizovat program, kterı bude rozhodovat o monostech pøestupu mezi vlaky na nádraí.
+Ãškolem je realizovat program, kterÃ½ bude rozhodovat o moÅ¾nostech pÅ™estupu mezi vlaky na nÃ¡draÅ¾Ã­.
 
-Pøedpokládáme, e na nádraí jezdí za den právì 3 vlaky - vlak A, B a C. Vlaky jezdí dennì, pøijídìjí a odjídìjí vdy ve stejnı èas. Pro kadı vlak známe hodinu a minutu pøíjezdu a odjezdu. Úkolem programu je rozhodnout, mezi kterımi vlaky lze pøestoupit. Z vlaku X lze pøestoupit do vlaku Y pokud vlak Y odjídí alespoò 5 minut po pøíjezdu vlaku X (5 minut je na pøestup). Dále, pøestoupit mùeme pouze tehdy, pokud od pøíjezdu X do pøíjezdu Y jsou nejvıše 3 hodiny vèetnì. Pokud by vlak Y pøijel pozdìji, zdreli bychom se na nástupišti déle ne 3 hodiny a byli bychom z nádraí vykázáni jako potenciální bezdomovci. Oba limity (5 min, 3h) jsou brané vèetnì, je to i demonstrováno v ukázkách níe.
+PÅ™edpoklÃ¡dÃ¡me, Å¾e na nÃ¡draÅ¾Ã­ jezdÃ­ za den prÃ¡vÄ› 3 vlaky - vlak A, B a C. Vlaky jezdÃ­ dennÄ›, pÅ™ijÃ­Å¾dÄ›jÃ­ a odjÃ­Å¾dÄ›jÃ­ vÅ¾dy ve stejnÃ½ Äas. Pro kaÅ¾dÃ½ vlak znÃ¡me hodinu a minutu pÅ™Ã­jezdu a odjezdu. Ãškolem programu je rozhodnout, mezi kterÃ½mi vlaky lze pÅ™estoupit. Z vlaku X lze pÅ™estoupit do vlaku Y pokud vlak Y odjÃ­Å¾dÃ­ alespoÅˆ 5 minut po pÅ™Ã­jezdu vlaku X (5 minut je na pÅ™estup). DÃ¡le, pÅ™estoupit mÅ¯Å¾eme pouze tehdy, pokud od pÅ™Ã­jezdu X do pÅ™Ã­jezdu Y jsou nejvÃ½Å¡e 3 hodiny vÄetnÄ›. Pokud by vlak Y pÅ™ijel pozdÄ›ji, zdrÅ¾eli bychom se na nÃ¡stupiÅ¡ti dÃ©le neÅ¾ 3 hodiny a byli bychom z nÃ¡draÅ¾Ã­ vykÃ¡zÃ¡ni jako potenciÃ¡lnÃ­ bezdomovci. Oba limity (5 min, 3h) jsou branÃ© vÄetnÄ›, je to i demonstrovÃ¡no v ukÃ¡zkÃ¡ch nÃ­Å¾e.
 
-Vstupem programu je 6 èasovıch údajù o pøíjezdech a odjezdech vlakù, kadı údaj je tvoøen hodinou a minutou. Hodiny a minuty jsou oddìlené dvojteèkou.
+Vstupem programu je 6 ÄasovÃ½ch ÃºdajÅ¯ o pÅ™Ã­jezdech a odjezdech vlakÅ¯, kaÅ¾dÃ½ Ãºdaj je tvoÅ™en hodinou a minutou. Hodiny a minuty jsou oddÄ›lenÃ© dvojteÄkou.
 
-Vıstupem programu je rozhodnutí, mezi kterımi vlaky lze pøestupovat. Odpovìdi jsou postupnì pro vlaky A, B a C, kadá na zvláštním øádku. Formát vıstupu je zøejmı z ukázek níe. Pokud lze pøestupovat na více vlakù, jsou vlaky, na které lze pøestoupit, uvedeny abecednì:
+VÃ½stupem programu je rozhodnutÃ­, mezi kterÃ½mi vlaky lze pÅ™estupovat. OdpovÄ›di jsou postupnÄ› pro vlaky A, B a C, kaÅ¾dÃ¡ na zvlÃ¡Å¡tnÃ­m Å™Ã¡dku. FormÃ¡t vÃ½stupu je zÅ™ejmÃ½ z ukÃ¡zek nÃ­Å¾e. Pokud lze pÅ™estupovat na vÃ­ce vlakÅ¯, jsou vlaky, na kterÃ© lze pÅ™estoupit, uvedeny abecednÄ›:
 
 Z vlaku B lze prestoupit na vlaky A a C.
-Naopak, následující odpovìï by byla vyhodnocena jako nesprávná:
+Naopak, nÃ¡sledujÃ­cÃ­ odpovÄ›Ä by byla vyhodnocena jako nesprÃ¡vnÃ¡:
 Z vlaku B lze prestoupit na vlaky C a A.
-Nezapomeòte na odøádkování za kadou (tedy i poslední) øádkou vıpisu.
-Pokud vstup není platnı (na vstupu jsou neèíselné nebo nesmyslné hodnoty), program tuto situaci detekuje a vypíše chybové hlášení. Formát chybového hlášení je opìt uveden v ukázkách níe. Za chybu je povaováno, pokud je na vstupu:
+NezapomeÅˆte na odÅ™Ã¡dkovÃ¡nÃ­ za kaÅ¾dou (tedy i poslednÃ­) Å™Ã¡dkou vÃ½pisu.
+Pokud vstup nenÃ­ platnÃ½ (na vstupu jsou neÄÃ­selnÃ© nebo nesmyslnÃ© hodnoty), program tuto situaci detekuje a vypÃ­Å¡e chybovÃ© hlÃ¡Å¡enÃ­. FormÃ¡t chybovÃ©ho hlÃ¡Å¡enÃ­ je opÄ›t uveden v ukÃ¡zkÃ¡ch nÃ­Å¾e. Za chybu je povaÅ¾ovÃ¡no, pokud je na vstupu:
 
-neèíselná hodnota,
-chybìjící oddìlovaè (dvojteèka) nebo
-nesmyslná hodnota (hodnota mimo rozsah 0-23, resp. 0-59).
-Pokud program detekuje chybu, pøestane se dotazovat na další vstupní hodnoty, vypíše chybové hlášení a ukonèí se. Chybu je tedy potøeba detekovat okamitì po naètení hodnoty (neodkládejte kontrolu vstupních údajù a za naètení celého vstupu). Chybové hlášení vypisujte na standardní vıstup (nevypisujte jej na standardní chybovı vıstup).
+neÄÃ­selnÃ¡ hodnota,
+chybÄ›jÃ­cÃ­ oddÄ›lovaÄ (dvojteÄka) nebo
+nesmyslnÃ¡ hodnota (hodnota mimo rozsah 0-23, resp. 0-59).
+Pokud program detekuje chybu, pÅ™estane se dotazovat na dalÅ¡Ã­ vstupnÃ­ hodnoty, vypÃ­Å¡e chybovÃ© hlÃ¡Å¡enÃ­ a ukonÄÃ­ se. Chybu je tedy potÅ™eba detekovat okamÅ¾itÄ› po naÄtenÃ­ hodnoty (neodklÃ¡dejte kontrolu vstupnÃ­ch ÃºdajÅ¯ aÅ¾ za naÄtenÃ­ celÃ©ho vstupu). ChybovÃ© hlÃ¡Å¡enÃ­ vypisujte na standardnÃ­ vÃ½stup (nevypisujte jej na standardnÃ­ chybovÃ½ vÃ½stup).
 
-Dodrte pøesnì formát všech vıpisù. Vıpis Vašeho programu musí pøesnì odpovídat ukázkám. Testování provádí stroj, kterı kontroluje vıpis na pøesnou shodu. Pokud se vıpis Vašeho programu liší od referenèního vıstupu, je Vaše odpovìï povaovaná za nesprávnou. Záleí i na mezerách, i na odøádkování. Nezapomeòte na odøádkování za posledním øádkem vıstupu (a za pøípadnım chybovım hlášením). Vyuijte pøiloenı archiv s testovacími vstupy a vıstupy a pøeètìte si sekci FAQ, jak vyuít pøesmìrování vstupù/vıstupù k testování Vašeho programu.
+DodrÅ¾te pÅ™esnÄ› formÃ¡t vÅ¡ech vÃ½pisÅ¯. VÃ½pis VaÅ¡eho programu musÃ­ pÅ™esnÄ› odpovÃ­dat ukÃ¡zkÃ¡m. TestovÃ¡nÃ­ provÃ¡dÃ­ stroj, kterÃ½ kontroluje vÃ½pis na pÅ™esnou shodu. Pokud se vÃ½pis VaÅ¡eho programu liÅ¡Ã­ od referenÄnÃ­ho vÃ½stupu, je VaÅ¡e odpovÄ›Ä povaÅ¾ovanÃ¡ za nesprÃ¡vnou. ZÃ¡leÅ¾Ã­ i na mezerÃ¡ch, i na odÅ™Ã¡dkovÃ¡nÃ­. NezapomeÅˆte na odÅ™Ã¡dkovÃ¡nÃ­ za poslednÃ­m Å™Ã¡dkem vÃ½stupu (a za pÅ™Ã­padnÃ½m chybovÃ½m hlÃ¡Å¡enÃ­m). VyuÅ¾ijte pÅ™iloÅ¾enÃ½ archiv s testovacÃ­mi vstupy a vÃ½stupy a pÅ™eÄtÄ›te si sekci FAQ, jak vyuÅ¾Ã­t pÅ™esmÄ›rovÃ¡nÃ­ vstupÅ¯/vÃ½stupÅ¯ k testovÃ¡nÃ­ VaÅ¡eho programu.
 
-Váš program bude spouštìn v omezeném testovacím prostøedí. Je omezen dobou bìhu (limit je vidìt v logu referenèního øešení) a dále je omezena i velikost dostupné pamìti (ale tato úloha by ani s jedním omezením nemìla mít problém). Testovací prostøedí dále zakazuje pouívat nìkteré "nebezpeèné funkce" -- funkce pro spouštìní programu, pro práci se sítí, ... Pokud jsou tyto funkce pouité, program se nespustí. Moná ve svém programu pouíváte volání:
+VÃ¡Å¡ program bude spouÅ¡tÄ›n v omezenÃ©m testovacÃ­m prostÅ™edÃ­. Je omezen dobou bÄ›hu (limit je vidÄ›t v logu referenÄnÃ­ho Å™eÅ¡enÃ­) a dÃ¡le je omezena i velikost dostupnÃ© pamÄ›ti (ale tato Ãºloha by ani s jednÃ­m omezenÃ­m nemÄ›la mÃ­t problÃ©m). TestovacÃ­ prostÅ™edÃ­ dÃ¡le zakazuje pouÅ¾Ã­vat nÄ›kterÃ© "nebezpeÄnÃ© funkce" -- funkce pro spouÅ¡tÄ›nÃ­ programu, pro prÃ¡ci se sÃ­tÃ­, ... Pokud jsou tyto funkce pouÅ¾itÃ©, program se nespustÃ­. MoÅ¾nÃ¡ ve svÃ©m programu pouÅ¾Ã­vÃ¡te volÃ¡nÃ­:
 
 ```c++
 int main ( int argc, char * argv [] )
@@ -34,7 +34,7 @@ int main ( int argc, char * argv [] )
 }
 ```
 
-Toto nebude v testovacím prostøedí fungovat - je zakázáno spouštìní jiného programu. (I pokud by se program spustil, byl by odmítnut. Nebyl by toti nikdo, kdo by pauzu "odmáèkl", program by èekal vìènì a pøekroèil by tak maximální dobu bìhu.) Pokud tedy chcete zachovat pauzu pro testování na Vašem poèítaèi a zároveò chcete mít jistotu, e program pobìí správnì, pouijte následující trik:
+Toto nebude v testovacÃ­m prostÅ™edÃ­ fungovat - je zakÃ¡zÃ¡no spouÅ¡tÄ›nÃ­ jinÃ©ho programu. (I pokud by se program spustil, byl by odmÃ­tnut. Nebyl by totiÅ¾ nikdo, kdo by pauzu "odmÃ¡Äkl", program by Äekal vÄ›ÄnÄ› a pÅ™ekroÄil by tak maximÃ¡lnÃ­ dobu bÄ›hu.) Pokud tedy chcete zachovat pauzu pro testovÃ¡nÃ­ na VaÅ¡em poÄÃ­taÄi a zÃ¡roveÅˆ chcete mÃ­t jistotu, Å¾e program pobÄ›Å¾Ã­ sprÃ¡vnÄ›, pouÅ¾ijte nÃ¡sledujÃ­cÃ­ trik:
 
 ```c++
 int main ( int argc, char * argv [] )
@@ -49,7 +49,7 @@ int main ( int argc, char * argv [] )
 }
 ```
     
-## Ukázka práce programu:
+## UkÃ¡zka prÃ¡ce programu:
 ---
 ```
 Zadejte cas prijezdu vlaku A:
@@ -136,43 +136,43 @@ Zadejte cas odjezdu vlaku A:
 Nespravny vstup.
 ```
 ---
-## Hodnocení
+## HodnocenÃ­
 ```
-Stav odevzdání:	Ohodnoceno	 
-Hodnocení:	5.5000
+Stav odevzdÃ¡nÃ­:	Ohodnoceno	 
+HodnocenÃ­:	5.5000
 Hodnotitel: automat
-Program zkompilován
+Program zkompilovÃ¡n
 
-Test 'Základní tst s parametry podle ukázky': Úspìch
-Dosaeno: 100.00 %, poadováno: 100.00 %
-Max doba bìhu: 0.006 s (limit: 2.000 s)
-Celková doba bìhu: 0.033 s
-Vyuití pamìti: 11720 KiB (limit: 18434 KiB)
-Úspìch v závazném testu, hodnocení: 100.00 %
+Test 'ZÃ¡kladnÃ­ tst s parametry podle ukÃ¡zky': ÃšspÄ›ch
+DosaÅ¾eno: 100.00 %, poÅ¾adovÃ¡no: 100.00 %
+Max doba bÄ›hu: 0.006 s (limit: 2.000 s)
+CelkovÃ¡ doba bÄ›hu: 0.033 s
+VyuÅ¾itÃ­ pamÄ›ti: 11720 KiB (limit: 18434 KiB)
+ÃšspÄ›ch v zÃ¡vaznÃ©m testu, hodnocenÃ­: 100.00 %
 
-Test 'Test mezních hodnot': Úspìch
-Dosaeno: 100.00 %, poadováno: 50.00 %
-Max doba bìhu: 0.006 s (limit: 2.000 s)
-Celková doba bìhu: 0.037 s
-Vyuití pamìti: 11720 KiB (limit: 18434 KiB)
-Úspìch v závazném testu, hodnocení: 100.00 %
+Test 'Test meznÃ­ch hodnot': ÃšspÄ›ch
+DosaÅ¾eno: 100.00 %, poÅ¾adovÃ¡no: 50.00 %
+Max doba bÄ›hu: 0.006 s (limit: 2.000 s)
+CelkovÃ¡ doba bÄ›hu: 0.037 s
+VyuÅ¾itÃ­ pamÄ›ti: 11720 KiB (limit: 18434 KiB)
+ÃšspÄ›ch v zÃ¡vaznÃ©m testu, hodnocenÃ­: 100.00 %
 
-Test 'Kontrola ošetøení nesprávnıch vstupù': Úspìch
-Dosaeno: 100.00 %, poadováno: 50.00 %
-Max doba bìhu: 0.024 s (limit: 2.000 s)
-Celková doba bìhu: 0.092 s
-Vyuití pamìti: 11720 KiB (limit: 18434 KiB)
-Úspìch v závazném testu, hodnocení: 100.00 %
+Test 'Kontrola oÅ¡etÅ™enÃ­ nesprÃ¡vnÃ½ch vstupÅ¯': ÃšspÄ›ch
+DosaÅ¾eno: 100.00 %, poÅ¾adovÃ¡no: 50.00 %
+Max doba bÄ›hu: 0.024 s (limit: 2.000 s)
+CelkovÃ¡ doba bÄ›hu: 0.092 s
+VyuÅ¾itÃ­ pamÄ›ti: 11720 KiB (limit: 18434 KiB)
+ÃšspÄ›ch v zÃ¡vaznÃ©m testu, hodnocenÃ­: 100.00 %
 
-Test 'Test náhodnımi hodnotami': Úspìch
-Dosaeno: 100.00 %, poadováno: 50.00 %
-Max doba bìhu: 0.006 s (limit: 2.000 s)
-Celková doba bìhu: 0.158 s
-Vyuití pamìti: 11720 KiB (limit: 18434 KiB)
-Úspìch v závazném testu, hodnocení: 100.00 %
+Test 'Test nÃ¡hodnÃ½mi hodnotami': ÃšspÄ›ch
+DosaÅ¾eno: 100.00 %, poÅ¾adovÃ¡no: 50.00 %
+Max doba bÄ›hu: 0.006 s (limit: 2.000 s)
+CelkovÃ¡ doba bÄ›hu: 0.158 s
+VyuÅ¾itÃ­ pamÄ›ti: 11720 KiB (limit: 18434 KiB)
+ÃšspÄ›ch v zÃ¡vaznÃ©m testu, hodnocenÃ­: 100.00 %
 
-Celkové hodnocení: 100.00 % (= 1.00 * 1.00 * 1.00 * 1.00)
-Celkové procentní hodnocení: 100.00 %
-Bonus za vèasné odevzdání: 0.50
-Celkem bodù: 1.00 * ( 5.00 + 0.50 ) = 5.50
+CelkovÃ© hodnocenÃ­: 100.00 % (= 1.00 * 1.00 * 1.00 * 1.00)
+CelkovÃ© procentnÃ­ hodnocenÃ­: 100.00 %
+Bonus za vÄasnÃ© odevzdÃ¡nÃ­: 0.50
+Celkem bodÅ¯: 1.00 * ( 5.00 + 0.50 ) = 5.50
 ```

@@ -1,1 +1,1 @@
-# Domácí úloha 7 - Vìtrné elektrárny 
+# DomÃ¡cÃ­ Ãºloha 7 - VÄ›trnÃ© elektrÃ¡rny 

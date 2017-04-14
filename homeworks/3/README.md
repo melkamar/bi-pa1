@@ -1,1 +1,1 @@
-# Domácí úloha 3 - Oøezávání úseèek  
+# DomÃ¡cÃ­ Ãºloha 3 - OÅ™ezÃ¡vÃ¡nÃ­ ÃºseÄek  

@@ -1,1 +1,1 @@
-# Domácí úloha 8 - Telefonní èísla 
+# DomÃ¡cÃ­ Ãºloha 8 - TelefonnÃ­ ÄÃ­sla 

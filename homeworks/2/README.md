@@ -1,1 +1,1 @@
-# Domácí úloha 2 - Èíselné palindromy
+# DomÃ¡cÃ­ Ãºloha 2 - ÄŒÃ­selnÃ© palindromy
