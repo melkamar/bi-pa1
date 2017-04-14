@@ -6,7 +6,7 @@ Předpokládáme, že chceme naceňovat telefonní hovory. Cena závisí na cíl
 
 Pro reprezentaci takovéto hierarchické struktury se hodí strom organizovaný jako trie. Strom bude 10-ární, pro každou cifru zápisu tel. čísla bude mít jednu úroveň, pořadí synovských uzlů bude odpovídat cifrám 0 až 9. Strukturu zachycuje obrázek.
 
-![struktura trie](https://github.com/melkamar/bi-pa1/tree/master/homeworks/8/trie1.PNG "Struktura trie")
+![struktura trie](https://github.com/melkamar/bi-pa1/raw/master/homeworks/8/trie1.PNG "Struktura trie")
 
 Vaším Úkolem je realizovat sadu funkcí, které budou umět trie rozšiřovat, promazávat a vyhledávat v něm. Požadované funkce mají následující rozhraní:
 
@@ -61,7 +61,7 @@ funkce vyhledá ve stromu jméno cíle, které odpovídá zadanému číslu. Ná
 - ```delTree```
 funkce uvolní veškeré paměťové bloky, které byly použité pro zadaný strom.
 
-![struktura trie](https://github.com/melkamar/bi-pa1/tree/master/homeworks/8/trie2.PNG "Struktura trie")
+![struktura trie](https://github.com/melkamar/bi-pa1/raw/master/homeworks/8/trie2.PNG "Struktura trie")
 
 Odevzdávejte zdrojový soubor s implementací požadovaných funkcí. Odevzdávaný soubor musí obsahovat implementaci všech požadovaných funkcí s rozhraním (parametry), které odpovídají předpisu nahoře. Dále ve zdrojovém souboru musí být další Vaše pomocné funkce, které z požadovaných funkcí voláte. V odevzdávaném zdrojovém souboru by naopak neměly být zbytečnosti (pozůstatky vývoje a ladění), vkládání hlavičkových souborů ani funkce main - toto je již obsaženo v testovacím prostředí. Pro usnadnění vývoje a odevzdávání (abyste nemuseli před každým odevzdáním ručně odstraňovat funkci main a vkládání hlaviček) použijte šablonu výše. Všimněte si, že funkce main a vkládání hlavičkových souborů je v bloku podmíněného překladu, tedy jsou testovacím prostředím přeskočeny.
 

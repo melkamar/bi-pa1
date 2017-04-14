@@ -12,7 +12,7 @@ Program dostane na vstupu parametry segmentů, ze kterých sestavujeme tubus. Za
 
 Výstupem programu bude vypočtený nejnižší možná cena za kterou lze celý tubus sestavit.
 
-![struktura tubusu](https://github.com/melkamar/bi-pa1/tree/master/homeworks/7/struct.PNG "Struktura tubusu")
+![struktura tubusu](https://github.com/melkamar/bi-pa1/raw/master/homeworks/7/struct.PNG "Struktura tubusu")
 
 Program musí detekovat nesprávný vstup. Pokud je vstup nesprávný, program to zjistí, vypíše chybové hlášení a ukončí se. Za chybu je považováno:
 
